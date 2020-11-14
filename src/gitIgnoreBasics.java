@@ -8,5 +8,7 @@ public class gitIgnoreBasics {
         System.out.println("in .gitignore file type /file name/");
         System.out.println("!!! On IntelliJ color of a file or folder means following:");
         System.out.println("                green -> untracked; beige -> ignored");
+        System.out.println("                      To unastage the file/folder OR to fix ignored file/folder:");
+        System.out.println("Commit -> check tracked file/folder OR uncheck ignored file/folder -> right click on selected file/folder -> Rollback ");
     }
 }
