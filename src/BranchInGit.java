@@ -18,19 +18,9 @@ public class BranchInGit {
              as the “current committed branch”. When working with Git, only one branch can be checked out at a time.
 
                                To Create a New Branch on IntelliJ:
-             on right bottom corner under 'Event Log' click 'Git: master' -> name -> Create
+             on right bottom corner under 'Event Log' click 'Git: master' -> name ->
 
-                               Basic Branching and Merging
-Let’s go through a simple example of branching and merging with a workflow that you might use in the real world.
-You’ll follow these steps:
-Do some work on a website.
-Create a branch for a new user story you’re working on.
-Do some work in that branch.
-At this stage, you’ll receive a call that another issue is critical and you need a hotfix. You’ll do the following:
-Switch to your production branch.
-Create a branch to add the hotfix.
-After it’s tested, merge the hotfix branch, and push to production.
-Switch back to your original user story and continue working.
+
                                                                                                                  */
     }
 }
