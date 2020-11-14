@@ -22,7 +22,7 @@ public class BranchInGit {
 
                                To navigate from one branch to another:
              click Git: branch name(on the right bottom) -> choose a branch you need -> right click on chosen branch ->
-                                                                                                           -> check-out
+                                                                                                           -> checkout
 
                                Basic Branching and Merging
 Let’s go through a simple example of branching and merging with a workflow that you might use in the real world.
