@@ -20,9 +20,10 @@ public class BranchInGit {
                                To Create a New Branch on IntelliJ:
              on right bottom corner under 'Event Log' click 'Git: branch name' -> name -> Create
 
-                               To navigate from one branch to another:
+                               To navigate head from one branch to another (checkout):
              click Git: branch name(on the right bottom) -> choose a branch you need -> right click on chosen branch ->
                                                                                                            -> checkout
+                               To merge 2 branches:
 
                                Basic Branching and Merging
 Let’s go through a simple example of branching and merging with a workflow that you might use in the real world.
