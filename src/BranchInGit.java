@@ -28,6 +28,11 @@ public class BranchInGit {
              click Git: branch name(on the right bottom) -> choose a branch you need to add changes FROM -> right click
              -> Merge Into Current
 
+             !!! Once sub-branch is merged with main, that sub-branch can be deleted
+
+             Tag color: green - branch, yellow - head branch, purple - pushed to GHW.
+             Full Yellow Star - main branch, Empty Yellow Star - derivative branch (sub-branch).
+
                                Basic Branching and Merging
 Let’s go through a simple example of branching and merging with a workflow that you might use in the real world.
 You’ll follow these steps:
