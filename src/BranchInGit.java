@@ -9,7 +9,7 @@ public class BranchInGit {
              Never, ever push anything to master that is not tested, or that breaks the build. Because the master branch
                                             is deployable. It is your production code, ready to roll out into the world.
 
-                               WHY CREATE OTHER BRANCHES?
+                               Why create other branches?
              To begin working on anything new in a project, or to change existing things, you create a branch
                                                                                            off the stable master branch.
                                Where is your head?
@@ -32,6 +32,16 @@ public class BranchInGit {
 
              Tag color: green - branch, yellow - head branch, purple - pushed to GHW.
              Full Yellow Star - main branch, Empty Yellow Star - derivative branch (sub-branch).
+
+                                To push Local branch to Remote:
+             VCS -> Git -> Push -> on msg screen make sure the branch is selected -> Push
+             ON GHW: Compare & Pull Request -> name -> add description -> Create Pull Request -> Merge Pull Request ->
+                                                                                                            -> Confirm
+             ON IntelliJ: checkout the branch merged to -> Update Project -> OK
+             !!! Compare —> Comparing the master branch to logout branch
+             !!! Pull Request ->   Pull requests let you tell others about changes you've pushed to a GitHub repository.
+                 Once a pull request is sent, interested parties can review the set of changes, discuss potential
+                 modifications, and even push follow-up commits if necessary.
 
                                Basic Branching and Merging
 Let’s go through a simple example of branching and merging with a workflow that you might use in the real world.
