@@ -43,6 +43,9 @@ public class BranchInGit {
                  Once a pull request is sent, interested parties can review the set of changes, discuss potential
                  modifications, and even push follow-up commits if necessary.
 
+                                 To create 'Pull Request' from IntelliJ:
+              VCS -> Git -> Create Pull Request -> add Title -> OK (merge requests later)
+
                                Basic Branching and Merging
 Let’s go through a simple example of branching and merging with a workflow that you might use in the real world.
 You’ll follow these steps:
